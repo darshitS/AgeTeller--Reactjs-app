@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <Form inline>
-          <h2> Hey! Input Your BirthDay </h2>
+          <h2> Hey! Input Your BirthDate </h2>
           <FormControl
             onChange={event => this.setState({ newDate: event.target.value })}
             type="date"
